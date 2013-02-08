@@ -8,6 +8,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/square/objc-TimesSquare.git", :branch => "master", :tag => s.version.to_s }
   s.platform     = :ios, '5.0'
   s.source_files = 'TimesSquare/*.{h,m}'
-  s.resources    = 'TimesSquareTestApp/Calendar*.png'
   s.requires_arc = true
 end
