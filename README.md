@@ -8,11 +8,13 @@ TimesSquare is a library to display a calendar in a view in your iPhone or iPad 
 
 In your Podfile:
 
-```pod 'TimeSquare'```
+```pod 'TimeSquare', :tag => '<repo-tag>'```
 
 or if you want to live straight of this repository:
 
-``` pod 'TimeSquare', :git => 'https://github.com/square/objc-TimesSquare.git'```
+``` pod 'TimeSquare', :git => 'https://github.com/square/objc-TimesSquare.git', :tag='<repo-tag>'```
+
+where ```repo-tag``` is the tagged version of the project that you want your application to depend on. 
 
 This will take care of adding both the code and the resource bundle for the default look into the pod for your application. 
 
